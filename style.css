@@ -1,0 +1,72 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: -15% 300%, 120% -250%;
+}
+/* card styling */
+.card {
+    display: block;
+    max-width: 26rem;
+    text-align: center;
+    margin: auto;
+    background-color: azure;
+    margin-top: 12rem;
+    border-radius: 1rem; 
+}
+.card h2 {
+    color: hsl(229, 23%, 23%);
+    margin-top: 0px;
+}
+.img  {
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.card-footer {
+    display: flex;
+}
+.margin  {
+    padding-bottom: 1rem;
+    padding-left: 3.5rem;
+}
+
+.margin h2 {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color : hsl(229, 23%, 23%);
+}
+.margin span {
+    color:  hsl(227, 10%, 46%);
+    font-size: 1rem;
+}
+.location {
+    color :  hsl(227, 10%, 46%);
+    font-size: 20px;
+}
+.profile {
+    border-radius: 50%;
+    border: 0.4rem solid white;
+    transform: translateY(-40%);
+}
+/* footer style */
+.attribution {
+    margin-top: 13rem
+}
+
+/* style for mobile View */
+
+@media screen and (max-width : 500px) {
+    .card  {
+        display: block;
+        max-width: 300px;
+        margin-top : 6rem; 
+    }
+    .margin  {
+        padding-bottom: 1rem;
+        padding-left: 2rem;
+    } 
+    .attribution {
+        margin-top: 7rem
+    }  
+}
